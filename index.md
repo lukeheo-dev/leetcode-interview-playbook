@@ -18,4 +18,6 @@ A structured algorithm study journey.
 
 ## Latest Problems
 
+## Problems
+
 - [LC 0001 — Two Sum](problems/phase_00_reset/p01_arrays_hashing/lc_0001_two_sum/notes.md)
