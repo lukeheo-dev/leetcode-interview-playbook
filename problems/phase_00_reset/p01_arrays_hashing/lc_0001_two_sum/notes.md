@@ -1,6 +1,6 @@
 # LC 0001 — Two Sum
 
-LeetCode: https://leetcode.com/problems/two-sum/
+[LeetCode — Two Sum](https://leetcode.com/problems/two-sum/)
 
 ## Pattern
 Arrays & Hashing
