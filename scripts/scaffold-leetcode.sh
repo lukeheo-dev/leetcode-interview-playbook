@@ -5,7 +5,7 @@ BASE="$(pwd)"
 
 echo "📦 Creating LeetCode scaffold..."
 
-# Core directories
+# Core directories (idempotent)
 mkdir -p problems
 mkdir -p playbook/patterns
 mkdir -p playbook/english
@@ -14,11 +14,17 @@ mkdir -p curriculum
 mkdir -p scratch
 mkdir -p tests
 
-echo "🧾 Creating default templates..."
+echo "🧾 Ensuring default templates exist..."
 
-# Solution template
-cat > playbook/templates/solution_template.py << 'EOF2'
-\"\"\"
+# IMPORTANT:
+# - Do NOT create any file that matches pytest discovery patterns (test_*.py / *_test.py)
+#   outside of `problems/**` and `tests/**`.
+# - Keep templates as *.tmpl so pytest never tries to import/collect them.
+
+# Solution template (only create if missing)
+if [[ ! -f playbook/templates/solution_template.py ]]; then
+  cat > playbook/templates/solution_template.py << 'EOF'
+"""
 LC: {id} - {title}
 Pattern: {pattern}
 
@@ -31,34 +37,33 @@ Complexity:
 
 English explanation (2~4 lines):
 -
-\"\"\"
+"""
 
 from __future__ import annotations
+
 
 def solve(*args, **kwargs):
     raise NotImplementedError
-EOF2
+EOF
+fi
 
-# Test template
-cat > playbook/templates/test_template.py << 'EOF3'
-\"\"\"
-Basic test template for a LeetCode problem
-\"\"\"
+# Test template (keep as .tmpl; only create if missing)
+if [[ ! -f playbook/templates/test_template.py.tmpl ]]; then
+  cat > playbook/templates/test_template.py.tmpl << 'EOF'
+"""Basic test template for a LeetCode problem."""
 
 from __future__ import annotations
 
-def run_tests() -> None:
-    # TODO: add test cases
-    assert True
 
-if __name__ == "__main__":
-    run_tests()
-    print("✅ All tests passed")
-EOF3
+def test_smoke() -> None:
+    # TODO: replace with real test cases
+    assert True
+EOF
+fi
 
 echo "⭐ Scaffold complete in: $BASE"
 echo ""
-echo "Folders created:"
+echo "Folders ensured:" 
 echo "- problems/"
 echo "- playbook/patterns/"
 echo "- playbook/english/"

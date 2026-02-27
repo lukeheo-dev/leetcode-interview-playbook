@@ -20,4 +20,4 @@ A structured algorithm study journey.
 
 ## Problems
 
-- [LC 0001 — Two Sum](problems/phase_00_reset/p01_arrays_hashing/lc_0001_two_sum/notes.md)
+- [LC 0001 — Two Sum](problems/phase_00_reset/p01_arrays_hashing/lc_0001_two_sum/notes.m)
