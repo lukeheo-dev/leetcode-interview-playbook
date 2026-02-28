@@ -18,6 +18,10 @@ A structured algorithm study journey.
 
 ## Latest Problems
 
+- [LC 0014 — Longest Common Prefix](problems/phase_00_reset/p01_arrays_hashing/lc_0014_longest_common_prefix/notes.md)
+- [LC 0001 — Two Sum](problems/phase_00_reset/p01_arrays_hashing/lc_0001_two_sum/notes.md)
+
 ## Problems
 
-- [LC 0001 — Two Sum](problems/phase_00_reset/p01_arrays_hashing/lc_0001_two_sum/notes.m)
+- [LC 0001 — Two Sum](problems/phase_00_reset/p01_arrays_hashing/lc_0001_two_sum/notes.md)
+- [LC 0014 — Longest Common Prefix](problems/phase_00_reset/p01_arrays_hashing/lc_0014_longest_common_prefix/notes.md)
