@@ -18,6 +18,7 @@ A structured algorithm study journey.
 
 ## Latest Problems
 <!-- AUTO:LatestProblems:start -->
+- [LC 0704 — Binary Search](problems/phase_00_reset/p04_binary_search/lc_0704_binary_search/notes.md)
 - [LC 0217 — Contains Duplicate](problems/phase_00_reset/p01_arrays_hashing/lc_0217_contains_duplicate/notes.md)
 - [LC 0021 — Merge Two Sorted Lists](problems/phase_00_reset/p05_linked_list/lc_0021_merge_two_sorted_lists/notes.md)
 - [LC 0020 — Valid Parentheses](problems/phase_00_reset/p03_stack/lc_0020_valid_parentheses/notes.md)
@@ -32,4 +33,5 @@ A structured algorithm study journey.
 - [LC 0020 — Valid Parentheses](problems/phase_00_reset/p03_stack/lc_0020_valid_parentheses/notes.md)
 - [LC 0021 — Merge Two Sorted Lists](problems/phase_00_reset/p05_linked_list/lc_0021_merge_two_sorted_lists/notes.md)
 - [LC 0217 — Contains Duplicate](problems/phase_00_reset/p01_arrays_hashing/lc_0217_contains_duplicate/notes.md)
+- [LC 0704 — Binary Search](problems/phase_00_reset/p04_binary_search/lc_0704_binary_search/notes.md)
 <!-- AUTO:Problems:end -->
