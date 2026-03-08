@@ -63,7 +63,7 @@ def main() -> None:
     for nf in notes_files:
         lc, title = read_title(nf)
         ts = last_commit_ts(nf)
-        problems.append(Problem(lc=lc, title=title, notes_path=nf.as_posix(), ts=ts))
+        problems.append(Problem(lc=lc, title=title, notes_path=nf.relative_to(repo_root).as_posix(), ts=ts))
 
     latest_sorted = sorted(problems, key=lambda p: (p.ts, p.lc), reverse=True)[:10]
     latest_body = "".join(
