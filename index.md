@@ -18,6 +18,7 @@ A structured algorithm study journey.
 
 ## Latest Problems
 <!-- AUTO:LatestProblems:start -->
+- [LC 0205 — Isomorphic Strings](problems/phase_00_reset/p01_arrays_hashing/lc_0205_isomorphic_strings/notes.md)
 - [LC 0383 — Ransom Note](problems/phase_00_reset/p01_arrays_hashing/lc_0383_ransom_note/notes.md)
 - [LC 0049 — Group Anagrams](problems/phase_00_reset/p01_arrays_hashing/lc_0049_group_anagrams/notes.md)
 - [LC 0242 — Valid Anagram](problems/phase_00_reset/p01_arrays_hashing/lc_0242_valid_anagram/notes.md)
@@ -36,6 +37,7 @@ A structured algorithm study journey.
 - [LC 0020 — Valid Parentheses](problems/phase_00_reset/p03_stack/lc_0020_valid_parentheses/notes.md)
 - [LC 0021 — Merge Two Sorted Lists](problems/phase_00_reset/p05_linked_list/lc_0021_merge_two_sorted_lists/notes.md)
 - [LC 0049 — Group Anagrams](problems/phase_00_reset/p01_arrays_hashing/lc_0049_group_anagrams/notes.md)
+- [LC 0205 — Isomorphic Strings](problems/phase_00_reset/p01_arrays_hashing/lc_0205_isomorphic_strings/notes.md)
 - [LC 0217 — Contains Duplicate](problems/phase_00_reset/p01_arrays_hashing/lc_0217_contains_duplicate/notes.md)
 - [LC 0242 — Valid Anagram](problems/phase_00_reset/p01_arrays_hashing/lc_0242_valid_anagram/notes.md)
 - [LC 0383 — Ransom Note](problems/phase_00_reset/p01_arrays_hashing/lc_0383_ransom_note/notes.md)
